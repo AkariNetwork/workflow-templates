@@ -1,4 +1,4 @@
-name: Build vue-cli pages
+name: Build static pages with node
 
 on:
   push:
