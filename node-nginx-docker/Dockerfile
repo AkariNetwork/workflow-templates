@@ -1,3 +1,3 @@
-FROM nginx:latest
+FROM nginx:alpine-slim
 COPY ./dist /usr/share/nginx/html
 EXPOSE 80
