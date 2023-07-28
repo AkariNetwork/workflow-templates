@@ -13,14 +13,12 @@ env:
   IMAGE_NAME: 
 
 jobs:
-  docker-build:
-
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
       id-token: write
-
     steps:
       - name: Checkout
         uses: actions/checkout@v3
